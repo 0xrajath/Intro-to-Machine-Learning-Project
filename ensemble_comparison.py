@@ -30,9 +30,9 @@ N_MODELS = 6
 model_names = ['Decision Tree', 'Bagging', 'Random Forest', 'Adaboost', 'Gradient Boosting', 'XGBoost']
 models = [
           # Decision Tree as baseline for ensemble performance
-          tree.DecisionTreeClassifier(random_state=1, max_depth=10),
-          BaggingClassifier(random_state=1, base_estimator=tree.DecisionTreeClassifier(max_depth=10), n_estimators=100),
-          RandomForestClassifier(random_state=1, max_depth=10, n_estimators=100),
+          tree.DecisionTreeClassifier(random_state=1),
+          BaggingClassifier(random_state=1, n_estimators=100),
+          RandomForestClassifier(random_state=1, n_estimators=100),
           AdaBoostClassifier(random_state=1, base_estimator=tree.DecisionTreeClassifier(max_depth=10), n_estimators=50, learning_rate=1),
           GradientBoostingClassifier(random_state=1, max_depth=10, n_estimators=100, learning_rate=0.1),
           xgb.XGBClassifier(random_state=1, max_depth=10, n_estimators=100, learning_rate=0.1)

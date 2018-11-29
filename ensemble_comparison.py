@@ -4,6 +4,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score, classification_report, confusion_matrix
 
 from sklearn import tree
+#import autosklearn.classification
 from sklearn.ensemble import BaggingClassifier
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.ensemble import AdaBoostClassifier
@@ -12,30 +13,36 @@ import xgboost as xgb
 
 # Importing Training dataset
 df = pd.read_csv("data/poker_hand_train.csv")
+#df = pd.read_csv("data/c4_game_database.csv")
+#df = df.fillna(0)
 
 # Splitting existing training set as Training set: 30% , Test Set: 70%
 train, test = train_test_split(df, test_size=0.3, random_state=0)
 
 # Creating Data Columns and Label Columns
-data_train=train.drop('hand', axis=1)
-label_train=train['hand']
+label_name = 'hand'
+#label_name = 'winner'
 
-data_test=test.drop('hand', axis=1)
-label_test=test['hand']
+data_train=train.drop(label_name, axis=1)
+label_train=train[label_name]
+
+data_test=test.drop(label_name, axis=1)
+label_test=test[label_name]
 
 data_train=pd.get_dummies(data_train)
 data_test=pd.get_dummies(data_test)
 
-N_MODELS = 6
+N_MODELS = 5
 model_names = ['Decision Tree', 'Bagging', 'Random Forest', 'Adaboost', 'Gradient Boosting', 'XGBoost']
 models = [
           # Decision Tree as baseline for ensemble performance
           tree.DecisionTreeClassifier(random_state=1),
-          BaggingClassifier(random_state=1, n_estimators=100),
-          RandomForestClassifier(random_state=1, n_estimators=100),
+          #autosklearn.classification.AutoSklearnClassifier(),
+          BaggingClassifier(random_state=1, n_estimators=50),
+          RandomForestClassifier(random_state=1, n_estimators=50),
           AdaBoostClassifier(random_state=1, base_estimator=tree.DecisionTreeClassifier(max_depth=10), n_estimators=50, learning_rate=1),
           GradientBoostingClassifier(random_state=1, max_depth=10, n_estimators=100, learning_rate=0.1),
-          xgb.XGBClassifier(random_state=1, max_depth=10, n_estimators=100, learning_rate=0.1)
+          xgb.XGBClassifier(random_state=1, max_depth=3, n_estimators=100, learning_rate=0.1)
 ]
 accuracy_train = []
 accuracy_test = []

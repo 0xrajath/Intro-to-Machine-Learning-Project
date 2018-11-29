@@ -1,0 +1,44 @@
+Gradient Boosting
+Training time: 3203.464124036953
+Training accuracy: 0.9998672472387425
+Testing accuracy: 0.9985751203625035
+Classification report:
+              precision    recall  f1-score   support
+
+        -1.0       1.00      1.00      1.00     54067
+         0.0       1.00      1.00      1.00      4443
+         1.0       1.00      1.00      1.00     54482
+
+   micro avg       1.00      1.00      1.00    112992
+   macro avg       1.00      1.00      1.00    112992
+weighted avg       1.00      1.00      1.00    112992
+
+Confusion matrix:
+[[53996     5    66]
+ [    2  4437     4]
+ [   78     6 54398]]
+
+
+
+XGBoost
+Training time: 363.51492335787043
+Training accuracy: 0.9993855443621799
+Testing accuracy: 0.9976724015859529
+Classification report:
+              precision    recall  f1-score   support
+
+        -1.0       1.00      1.00      1.00     54067
+         0.0       1.00      1.00      1.00      4443
+         1.0       1.00      1.00      1.00     54482
+
+   micro avg       1.00      1.00      1.00    112992
+   macro avg       1.00      1.00      1.00    112992
+weighted avg       1.00      1.00      1.00    112992
+
+Confusion matrix:
+[[53949     7   111]
+ [    2  4437     4]
+ [  133     6 54343]]
+
+
+

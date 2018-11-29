@@ -1,0 +1,224 @@
+
+Decision Tree
+Testing accuracy:  0.5189003436426117
+Training accuracy:  1.0
+Classification Report: 
+             precision    recall  f1-score   support
+
+          0       0.31      0.28      0.29       365
+          1       0.27      0.25      0.26       391
+          2       0.26      0.22      0.24       381
+          3       0.30      0.31      0.31       352
+          4       0.50      0.44      0.47       400
+          5       0.53      0.58      0.55       373
+          6       0.63      0.75      0.69       346
+          7       0.58      0.57      0.58       379
+          8       0.66      0.77      0.71       404
+          9       0.97      1.00      0.98       392
+
+avg / total       0.50      0.52      0.51      3783
+
+Confusion Matrix: 
+[[101  71  51  49   5  70   5   6   7   0]
+ [ 71  98  59  46  15  54  21  19   8   0]
+ [ 44  53  84  33  31  39  49  39   9   0]
+ [ 30  42  32 109  24  23  28  52  11   1]
+ [  4  15  14  25 176   1  13  23 116  13]
+ [ 52  49  20  20   3 217   4   2   6   0]
+ [  9  13  20  25   6   0 259  13   1   0]
+ [  8  14  32  50  26   2  29 216   2   0]
+ [  3   8   5   4  67   5   0   1 311   0]
+ [  0   0   0   0   0   0   0   0   0 392]]
+
+
+
+
+Bagging
+Testing accuracy:  0.6336241078509119
+Training accuracy:  1.0
+Classification Report: 
+             precision    recall  f1-score   support
+
+          0       0.43      0.43      0.43       365
+          1       0.33      0.24      0.28       391
+          2       0.43      0.22      0.29       381
+          3       0.44      0.36      0.39       352
+          4       0.64      0.67      0.65       400
+          5       0.69      0.82      0.75       373
+          6       0.67      0.90      0.77       346
+          7       0.69      0.73      0.71       379
+          8       0.74      0.96      0.84       404
+          9       0.94      1.00      0.97       392
+
+avg / total       0.60      0.63      0.61      3783
+
+Confusion Matrix: 
+[[158  71  29  23   8  64   8   4   0   0]
+ [100  93  55  45  24  38  21   9   6   0]
+ [ 45  53  82  30  42  25  61  35   7   1]
+ [ 24  45  14 125  26   9  36  67   5   1]
+ [  0   1   1   5 266   0   1   3 104  19]
+ [ 39  13   1   3   0 305   1   1   9   1]
+ [  1   2   5   7  10   0 313   8   0   0]
+ [  0   2   5  44  23   0  24 277   3   1]
+ [  0   0   0   0  16   2   0   0 386   0]
+ [  0   0   0   0   0   0   0   0   0 392]]
+
+
+
+
+Random Forest
+Testing accuracy:  0.6463124504361618
+Training accuracy:  1.0
+Classification Report: 
+             precision    recall  f1-score   support
+
+          0       0.46      0.51      0.48       365
+          1       0.29      0.21      0.24       391
+          2       0.31      0.15      0.20       381
+          3       0.40      0.30      0.35       352
+          4       0.65      0.79      0.71       400
+          5       0.84      0.93      0.88       373
+          6       0.65      0.78      0.71       346
+          7       0.62      0.76      0.68       379
+          8       0.88      0.99      0.93       404
+          9       0.95      1.00      0.97       392
+
+avg / total       0.61      0.65      0.62      3783
+
+Confusion Matrix: 
+[[187  79  28  14  15  33   6   2   1   0]
+ [119  81  53  37  32  23  25  17   4   0]
+ [ 59  70  57  43  57  10  43  36   5   1]
+ [ 31  40  17 107  34   0  47  76   0   0]
+ [  3   2   8   9 316   0   6  11  28  17]
+ [  4   0   0   0   0 348   0   0  18   3]
+ [  3   4  13  12  13   0 270  31   0   0]
+ [  1   3   9  44  14   0  21 287   0   0]
+ [  0   0   0   0   4   0   0   0 400   0]
+ [  0   0   0   0   0   0   0   0   0 392]]
+
+
+
+
+Adaboost
+Testing accuracy:  0.6045466560930478
+Training accuracy:  0.9986402266288952
+Classification Report: 
+             precision    recall  f1-score   support
+
+          0       0.47      0.36      0.41       365
+          1       0.30      0.33      0.31       391
+          2       0.24      0.23      0.24       381
+          3       0.26      0.31      0.28       352
+          4       0.63      0.72      0.67       400
+          5       0.96      0.94      0.95       373
+          6       0.63      0.55      0.59       346
+          7       0.62      0.55      0.58       379
+          8       0.95      0.99      0.97       404
+          9       0.99      1.00      1.00       392
+
+avg / total       0.61      0.60      0.61      3783
+
+Confusion Matrix: 
+[[133 106  56  43   7   8  10   2   0   0]
+ [ 70 129  74  59  28   2  15  14   0   0]
+ [ 50  89  88  64  52   0  16  21   0   1]
+ [ 19  58  57 110  34   0  26  48   0   0]
+ [  0  15  21  48 288   0  14  12   1   1]
+ [  1   2   0   0   0 349   0   0  20   1]
+ [ 12  20  41  27  25   0 189  32   0   0]
+ [  1  15  28  74  21   0  30 210   0   0]
+ [  0   0   0   0   2   3   0   0 399   0]
+ [  0   0   0   0   0   0   0   0   0 392]]
+
+
+
+
+Gradient Boosting
+Testing accuracy:  0.6798836901929686
+Training accuracy:  1.0
+Classification Report: 
+             precision    recall  f1-score   support
+
+          0       0.47      0.47      0.47       365
+          1       0.33      0.26      0.29       391
+          2       0.35      0.22      0.27       381
+          3       0.41      0.32      0.36       352
+          4       0.70      0.79      0.74       400
+          5       0.91      0.97      0.94       373
+          6       0.68      0.83      0.74       346
+          7       0.72      0.90      0.80       379
+          8       0.91      1.00      0.96       404
+          9       0.97      1.00      0.98       392
+
+avg / total       0.65      0.68      0.66      3783
+
+Confusion Matrix: 
+[[172  88  41  29  11  16   8   0   0   0]
+ [ 98 103  56  50  38  12  21  10   2   1]
+ [ 54  66  84  38  45   6  46  36   5   1]
+ [ 36  44  24 111  35   0  32  69   0   1]
+ [  0   3  19  12 317   0  13   2  23  11]
+ [  2   0   0   0   0 363   0   0   8   0]
+ [  6   5  12  12   7   0 286  18   0   0]
+ [  0   0   1  20   2   0  16 340   0   0]
+ [  0   0   0   0   0   0   0   0 404   0]
+ [  0   0   0   0   0   0   0   0   0 392]]
+
+
+
+
+/anaconda3/lib/python3.6/site-packages/sklearn/preprocessing/label.py:151: DeprecationWarning: The truth value of an empty array is ambiguous. Returning False, but in future this will result in an error. Use `array.size > 0` to check that an array is not empty.
+  if diff:
+/anaconda3/lib/python3.6/site-packages/sklearn/preprocessing/label.py:151: DeprecationWarning: The truth value of an empty array is ambiguous. Returning False, but in future this will result in an error. Use `array.size > 0` to check that an array is not empty.
+  if diff:
+XGBoost
+Testing accuracy:  0.6727464974887656
+Training accuracy:  0.9997733711048159
+Classification Report: 
+             precision    recall  f1-score   support
+
+          0       0.50      0.47      0.49       365
+          1       0.31      0.26      0.28       391
+          2       0.29      0.19      0.23       381
+          3       0.40      0.33      0.36       352
+          4       0.70      0.82      0.75       400
+          5       0.93      0.98      0.95       373
+          6       0.67      0.83      0.74       346
+          7       0.73      0.81      0.76       379
+          8       0.93      1.00      0.96       404
+          9       0.93      1.00      0.97       392
+
+avg / total       0.64      0.67      0.65      3783
+
+Confusion Matrix: 
+[[173 104  39  20   8  13   7   1   0   0]
+ [ 96 102  66  53  33   6  21  11   1   2]
+ [ 50  64  72  44  47   8  57  34   4   1]
+ [ 25  48  43 116  32   0  30  56   1   1]
+ [  0   3  12  11 328   0   6   1  18  21]
+ [  0   0   0   0   0 365   0   0   7   1]
+ [  3   4  12  12  15   0 287  13   0   0]
+ [  1   0   7  33   7   0  23 306   0   2]
+ [  0   0   0   0   0   0   0   0 404   0]
+ [  0   0   0   0   0   0   0   0   0 392]]
+
+
+
+
+Accuracy Summary:
+Tesing accuracy for Decision Tree is 0.5189003436426117
+Tesing accuracy for Bagging is 0.6336241078509119
+Tesing accuracy for Random Forest is 0.6463124504361618
+Tesing accuracy for Adaboost is 0.6045466560930478
+Tesing accuracy for Gradient Boosting is 0.6798836901929686
+Tesing accuracy for XGBoost is 0.6727464974887656
+Traing accuracy for Decision Tree is 1.0
+Traing accuracy for Bagging is 1.0
+Traing accuracy for Random Forest is 1.0
+Traing accuracy for Adaboost is 0.9986402266288952
+Traing accuracy for Gradient Boosting is 1.0
+Traing accuracy for XGBoost is 0.9997733711048159
+
+

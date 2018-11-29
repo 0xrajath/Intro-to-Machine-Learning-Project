@@ -71,6 +71,6 @@ for i in range(N_MODELS):
 
 print('Accuracy Summary:')
 for i in range(N_MODELS):
-    print('Tesing accuracy for', model_names[i], 'is', accuracy_test[i])
+    print('Testing accuracy for', model_names[i], 'is', accuracy_test[i])
 for i in range(N_MODELS):
-    print('Traing accuracy for', model_names[i], 'is', accuracy_train[i])
+    print('Training accuracy for', model_names[i], 'is', accuracy_train[i])

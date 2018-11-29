@@ -168,11 +168,6 @@ Confusion Matrix:
 
 
 
-
-/anaconda3/lib/python3.6/site-packages/sklearn/preprocessing/label.py:151: DeprecationWarning: The truth value of an empty array is ambiguous. Returning False, but in future this will result in an error. Use `array.size > 0` to check that an array is not empty.
-  if diff:
-/anaconda3/lib/python3.6/site-packages/sklearn/preprocessing/label.py:151: DeprecationWarning: The truth value of an empty array is ambiguous. Returning False, but in future this will result in an error. Use `array.size > 0` to check that an array is not empty.
-  if diff:
 XGBoost
 Testing accuracy:  0.6727464974887656
 Training accuracy:  0.9997733711048159
@@ -208,17 +203,17 @@ Confusion Matrix:
 
 
 Accuracy Summary:
-Tesing accuracy for Decision Tree is 0.5189003436426117
-Tesing accuracy for Bagging is 0.6336241078509119
-Tesing accuracy for Random Forest is 0.6463124504361618
-Tesing accuracy for Adaboost is 0.6045466560930478
-Tesing accuracy for Gradient Boosting is 0.6798836901929686
-Tesing accuracy for XGBoost is 0.6727464974887656
-Traing accuracy for Decision Tree is 1.0
-Traing accuracy for Bagging is 1.0
-Traing accuracy for Random Forest is 1.0
-Traing accuracy for Adaboost is 0.9986402266288952
-Traing accuracy for Gradient Boosting is 1.0
-Traing accuracy for XGBoost is 0.9997733711048159
+Testing accuracy for Decision Tree is 0.5189003436426117
+Testing accuracy for Bagging is 0.6336241078509119
+Testing accuracy for Random Forest is 0.6463124504361618
+Testing accuracy for Adaboost is 0.6045466560930478
+Testing accuracy for Gradient Boosting is 0.6798836901929686
+Testing accuracy for XGBoost is 0.6727464974887656
+Training accuracy for Decision Tree is 1.0
+Training accuracy for Bagging is 1.0
+Training accuracy for Random Forest is 1.0
+Training accuracy for Adaboost is 0.9986402266288952
+Training accuracy for Gradient Boosting is 1.0
+Training accuracy for XGBoost is 0.9997733711048159
 
 

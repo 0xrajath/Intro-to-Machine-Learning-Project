@@ -1,0 +1,161 @@
+Bagging (1)
+Training accuracy: 0.9986724723874256
+Testing accuracy: 0.9572182101387708
+Classification report:
+              precision    recall  f1-score   support
+
+        -1.0       0.94      0.97      0.96     54067
+         0.0       0.98      1.00      0.99      4443
+         1.0       0.97      0.94      0.96     54482
+
+   micro avg       0.96      0.96      0.96    112992
+   macro avg       0.97      0.97      0.97    112992
+weighted avg       0.96      0.96      0.96    112992
+
+Confusion matrix:
+[[52344    35  1688]
+ [    2  4437     4]
+ [ 3065    40 51377]]
+
+
+
+Random Forests (.9)
+Training accuracy: 0.9988659121252579
+Testing accuracy: 0.9593068535825545
+Classification report:
+              precision    recall  f1-score   support
+
+        -1.0       0.95      0.97      0.96     54067
+         0.0       0.98      1.00      0.99      4443
+         1.0       0.97      0.95      0.96     54482
+
+   micro avg       0.96      0.96      0.96    112992
+   macro avg       0.97      0.97      0.97    112992
+weighted avg       0.96      0.96      0.96    112992
+
+Confusion matrix:
+[[52442    38  1587]
+ [    2  4437     4]
+ [ 2929    38 51515]]
+
+
+
+Random Forests (.7)
+Training accuracy: 0.9989872860784076
+Testing accuracy: 0.9613954970263382
+Classification report:
+              precision    recall  f1-score   support
+
+        -1.0       0.95      0.97      0.96     54067
+         0.0       0.98      1.00      0.99      4443
+         1.0       0.97      0.95      0.96     54482
+
+   micro avg       0.96      0.96      0.96    112992
+   macro avg       0.97      0.97      0.97    112992
+weighted avg       0.96      0.96      0.96    112992
+
+Confusion matrix:
+[[52568    40  1459]
+ [    2  4437     4]
+ [ 2800    57 51625]]
+
+
+
+Random Forests (.5)
+Training accuracy: 0.9989493567180483
+Testing accuracy: 0.9568819031435853
+Classification report:
+              precision    recall  f1-score   support
+
+        -1.0       0.94      0.97      0.96     54067
+         0.0       0.97      1.00      0.98      4443
+         1.0       0.97      0.94      0.96     54482
+
+   micro avg       0.96      0.96      0.96    112992
+   macro avg       0.96      0.97      0.96    112992
+weighted avg       0.96      0.96      0.96    112992
+
+Confusion matrix:
+[[52455    63  1549]
+ [    6  4433     4]
+ [ 3172    78 51232]]
+
+
+
+Random Forests (.3)
+Training accuracy: 0.9988279827648987
+Testing accuracy: 0.9515363919569527
+Classification report:
+              precision    recall  f1-score   support
+
+        -1.0       0.94      0.97      0.95     54067
+         0.0       0.96      0.99      0.98      4443
+         1.0       0.97      0.93      0.95     54482
+
+   micro avg       0.95      0.95      0.95    112992
+   macro avg       0.95      0.96      0.96    112992
+weighted avg       0.95      0.95      0.95    112992
+
+Confusion matrix:
+[[52248    67  1752]
+ [   35  4396    12]
+ [ 3499   111 50872]]
+
+
+
+Random Forests (.1)
+Training accuracy: 0.9978987134360966
+Testing accuracy: 0.8978511753044464
+Classification report:
+              precision    recall  f1-score   support
+
+        -1.0       0.87      0.93      0.90     54067
+         0.0       0.92      0.97      0.94      4443
+         1.0       0.93      0.86      0.89     54482
+
+   micro avg       0.90      0.90      0.90    112992
+   macro avg       0.91      0.92      0.91    112992
+weighted avg       0.90      0.90      0.90    112992
+
+Confusion matrix:
+[[50283   172  3612]
+ [   84  4321    38]
+ [ 7424   212 46846]]
+
+
+
+Pure Random Forests
+Training accuracy: 0.9960553465226363
+Testing accuracy: 0.7997380345511187
+Classification report:
+              precision    recall  f1-score   support
+
+        -1.0       0.76      0.86      0.81     54067
+         0.0       0.86      0.84      0.85      4443
+         1.0       0.84      0.73      0.79     54482
+
+   micro avg       0.80      0.80      0.80    112992
+   macro avg       0.82      0.81      0.81    112992
+weighted avg       0.81      0.80      0.80    112992
+
+Confusion matrix:
+[[46666   279  7122]
+ [  466  3730   247]
+ [14196   318 39968]]
+
+
+
+Training accuracy for Bagging (1) : 0.9986724723874256
+Training accuracy for Random Forests (.9) : 0.9988659121252579
+Training accuracy for Random Forests (.7) : 0.9989872860784076
+Training accuracy for Random Forests (.5) : 0.9989493567180483
+Training accuracy for Random Forests (.3) : 0.9988279827648987
+Training accuracy for Random Forests (.1) : 0.9978987134360966
+Training accuracy for Pure Random Forests : 0.9960553465226363
+Testing accuracy for Bagging (1) : 0.9572182101387708
+Testing accuracy for Random Forests (.9) : 0.9593068535825545
+Testing accuracy for Random Forests (.7) : 0.9613954970263382
+Testing accuracy for Random Forests (.5) : 0.9568819031435853
+Testing accuracy for Random Forests (.3) : 0.9515363919569527
+Testing accuracy for Random Forests (.1) : 0.8978511753044464
+Testing accuracy for Pure Random Forests : 0.7997380345511187

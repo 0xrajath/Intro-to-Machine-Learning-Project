@@ -1,0 +1,17 @@
+results:
+mean: 0.82977, std: 0.00386, params: {'subsample': 0.6}
+mean: 0.83425, std: 0.00282, params: {'subsample': 0.7}
+mean: 0.83806, std: 0.00404, params: {'subsample': 0.75}
+mean: 0.84157, std: 0.00270, params: {'subsample': 0.8}
+mean: 0.84227, std: 0.00162, params: {'subsample': 0.85}
+mean: 0.84514, std: 0.00134, params: {'subsample': 0.9}
+mean: 0.84804, std: 0.00196, params: {'subsample': 0.95}
+mean: 0.84929, std: 0.00198, params: {'subsample': 1.0}
+
+
+best parameter:
+{'subsample': 1.0}
+
+
+best score:
+0.8492884180253336

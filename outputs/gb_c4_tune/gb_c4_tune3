@@ -1,0 +1,14 @@
+results:
+mean: 0.83757, std: 0.00113, params: {'min_samples_leaf': 25}
+mean: 0.83485, std: 0.00284, params: {'min_samples_leaf': 30}
+mean: 0.83662, std: 0.00247, params: {'min_samples_leaf': 35}
+mean: 0.83628, std: 0.00225, params: {'min_samples_leaf': 40}
+mean: 0.83681, std: 0.00278, params: {'min_samples_leaf': 45}
+
+
+best parameter:
+{'min_samples_leaf': 25}
+
+
+best score:
+0.837573219987735

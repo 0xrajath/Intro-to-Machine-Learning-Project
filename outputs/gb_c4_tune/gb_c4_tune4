@@ -1,0 +1,17 @@
+results:
+mean: 0.83400, std: 0.00219, params: {'max_features': 5}
+mean: 0.82907, std: 0.01474, params: {'max_features': 7}
+mean: 0.83946, std: 0.00451, params: {'max_features': 9}
+mean: 0.83806, std: 0.00186, params: {'max_features': 11}
+mean: 0.84009, std: 0.00328, params: {'max_features': 13}
+mean: 0.83954, std: 0.00242, params: {'max_features': 15}
+mean: 0.83996, std: 0.00259, params: {'max_features': 17}
+mean: 0.84157, std: 0.00270, params: {'max_features': 19}
+
+
+best parameter:
+{'max_features': 19}
+
+
+best score:
+0.8415699211233056

@@ -1,0 +1,21 @@
+results:
+mean: 0.41387, std: 0.10442, params: {'max_depth': 3, 'min_child_weight': 1}
+mean: 0.28804, std: 0.20883, params: {'max_depth': 3, 'min_child_weight': 3}
+mean: 0.45406, std: 0.03703, params: {'max_depth': 3, 'min_child_weight': 5}
+mean: 0.48177, std: 0.03058, params: {'max_depth': 5, 'min_child_weight': 1}
+mean: 0.48437, std: 0.03018, params: {'max_depth': 5, 'min_child_weight': 3}
+mean: 0.37153, std: 0.17681, params: {'max_depth': 5, 'min_child_weight': 5}
+mean: 0.43906, std: 0.05092, params: {'max_depth': 7, 'min_child_weight': 1}
+mean: 0.40092, std: 0.10473, params: {'max_depth': 7, 'min_child_weight': 3}
+mean: 0.44762, std: 0.03096, params: {'max_depth': 7, 'min_child_weight': 5}
+mean: 0.47053, std: 0.03635, params: {'max_depth': 9, 'min_child_weight': 1}
+mean: 0.45038, std: 0.02828, params: {'max_depth': 9, 'min_child_weight': 3}
+mean: 0.45234, std: 0.06202, params: {'max_depth': 9, 'min_child_weight': 5}
+
+
+best parameter:
+{'max_depth': 5, 'min_child_weight': 3}
+
+
+best score:
+0.4843662534986006

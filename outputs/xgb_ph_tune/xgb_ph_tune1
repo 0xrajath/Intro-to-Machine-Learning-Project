@@ -1,0 +1,18 @@
+results:
+mean: 0.37021, std: 0.14798, params: {'n_estimators': 20}
+mean: 0.45114, std: 0.03989, params: {'n_estimators': 30}
+mean: 0.33523, std: 0.18529, params: {'n_estimators': 40}
+mean: 0.37329, std: 0.16839, params: {'n_estimators': 50}
+mean: 0.47017, std: 0.03848, params: {'n_estimators': 60}
+mean: 0.45866, std: 0.05282, params: {'n_estimators': 70}
+mean: 0.48177, std: 0.03058, params: {'n_estimators': 80}
+mean: 0.39056, std: 0.17515, params: {'n_estimators': 90}
+mean: 0.45994, std: 0.04737, params: {'n_estimators': 100}
+
+
+best parameter:
+{'n_estimators': 80}
+
+
+best score:
+0.4817672930827669

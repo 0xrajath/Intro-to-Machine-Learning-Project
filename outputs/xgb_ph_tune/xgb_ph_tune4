@@ -1,0 +1,14 @@
+results:
+mean: 0.46921, std: 0.03702, params: {'reg_alpha': 1e-05}
+mean: 0.47757, std: 0.03003, params: {'reg_alpha': 0.01}
+mean: 0.36521, std: 0.10670, params: {'reg_alpha': 0.1}
+mean: 0.46006, std: 0.03391, params: {'reg_alpha': 1}
+mean: 0.04822, std: 0.00006, params: {'reg_alpha': 100}
+
+
+best parameter:
+{'reg_alpha': 0.01}
+
+
+best score:
+0.4775689724110356

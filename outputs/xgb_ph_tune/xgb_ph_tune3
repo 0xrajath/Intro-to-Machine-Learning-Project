@@ -1,0 +1,14 @@
+results:
+mean: 0.48437, std: 0.03018, params: {'gamma': 0.0}
+mean: 0.37221, std: 0.17881, params: {'gamma': 0.1}
+mean: 0.35282, std: 0.15130, params: {'gamma': 0.2}
+mean: 0.42047, std: 0.15810, params: {'gamma': 0.3}
+mean: 0.48437, std: 0.03031, params: {'gamma': 0.4}
+
+
+best parameter:
+{'gamma': 0.0}
+
+
+best score:
+0.4843662534986006
